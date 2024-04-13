@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+div.cabecalho {
+    height: 100px;
+    width: 100%;
+}
+
+
+div.cabecalho > img{
+    height: 120px;
+    width: 99.9%;
+}
+
+div.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 489px;
+    width: 200px;
+    background-color: #1A2440;
+    float: left;
+    line-height: 90px;
+    padding: 6px;
+    text-align: center;
+}
+
+li > a{
+    display: block;
+    width: 180px;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+li > a:hover{
+    background-color: rgb(65, 119, 181);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+  
+  li a {
+    display: block;
+  }
+
+div.conteudo {
+    height: 410px;
+    width: 220;
+    background-color: white;
+    padding: 12px;
+}
+
+div.main {
+    padding-top: 3%;
+    padding-left: 290px;
+    padding-right: 100px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 700px;
+    height: 200px;
+}
+
+th{
+    background-color: #1A2440;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    color: #bccbe8;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;  
+}
+
+div.iframe{
+   padding-top: 50px;
+   float: left;
+}
+
+div.formulario{
+    padding-right: 70px;
+    padding-top: 50px;
+    float: right;
+}
+
+div.formulario > form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #1A2440;
+    border-radius: 10px;
+}
+
+button{
+    padding: 4px;
+    width: 160px;
+    border: 1px solid #1A2440;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    background-color: #1A2440;
+    color: #bccbe8;
+}
+
+div.rodape {
+    height: 80px;
+    width: 100%;
+    background-color: white#1A2440;
+}
+
+footer{
+    padding-top: 62px;
+}
+
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bccbe8;
+    text-align: center;
+    
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: #bccbe8;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A2440;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
